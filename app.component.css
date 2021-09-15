@@ -1,0 +1,22 @@
+table, td, th
+{
+    margin: 10px 0;
+    border: solid 1px #333;
+    padding: 2px 4px;
+    font: 15px verdana;
+}
+
+th {
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    background-color: cyan;
+}
+
+tr:hover {background-color: rgb(86, 100, 100);}
+
+tr:nth-child(even) {
+    background-color: burlywood;
+}
